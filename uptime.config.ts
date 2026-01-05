@@ -15,7 +15,7 @@ const workerConfig: WorkerConfig = {
       method: 'GET',
       target: 'https://www.iwara.tv/logo.png',
       expectedCodes: [200],
-      timeout: 10000,
+      timeout: 1000,
       hideLatencyChart: false
     },
     {
@@ -24,7 +24,7 @@ const workerConfig: WorkerConfig = {
       method: 'GET',
       target: 'https://api.iwara.tv/forum/threads?limit=5',
       expectedCodes: [200],
-      timeout: 10000,
+      timeout: 1000,
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0',
         'Accept': 'application/json',
@@ -41,7 +41,7 @@ const workerConfig: WorkerConfig = {
       method: 'GET',
       target: 'https://files.iwara.tv/',
       expectedCodes: [200, 301, 302, 403, 404],
-      timeout: 10000,
+      timeout: 1000,
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
