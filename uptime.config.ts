@@ -2,7 +2,7 @@ import { MaintenanceConfig, PageConfig, WorkerConfig } from './types/config'
 const pageConfig: PageConfig = {
   title: "Iwara.tv Status",
   links: [
-    { link: 'https://www.iwara.tv/', label: 'Iwara.tv' },
+    { link: 'https://www.iwara.tv/', label: 'Iwara' },
   ]
 }
 const workerConfig: WorkerConfig = {
