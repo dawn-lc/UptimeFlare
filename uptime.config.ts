@@ -2,9 +2,7 @@ import { MaintenanceConfig, PageConfig, WorkerConfig } from './types/config'
 const pageConfig: PageConfig = {
   title: "Iwara.tv Status",
   links: [
-    { link: 'https://github.com/dawn-lc', label: 'GitHub' },
     { link: 'https://www.iwara.tv/', label: 'Iwara.tv' },
-    { link: 'mailto:admin@dawnlc.me', label: 'Email Me', highlight: true },
   ]
 }
 const workerConfig: WorkerConfig = {
