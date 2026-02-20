@@ -22,7 +22,7 @@ const workerConfig: WorkerConfig = {
       id: 'iwara_api',
       name: 'Iwara API',
       method: 'GET',
-      target: 'https://api.iwara.tv/forum/threads?limit=5',
+      target: 'https://apiq.iwara.tv/forum/threads?limit=5',
       expectedCodes: [200],
       timeout: 1000,
       headers: {
@@ -39,7 +39,7 @@ const workerConfig: WorkerConfig = {
       id: 'iwara_files',
       name: 'Iwara Files CDN',
       method: 'GET',
-      target: 'https://files.iwara.tv/',
+      target: 'https://filesq.iwara.tv/',
       expectedCodes: [200, 301, 302, 403, 404],
       timeout: 1000,
       headers: {
